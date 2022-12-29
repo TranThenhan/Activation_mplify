@@ -1,0 +1,14 @@
+
+
+.profilelayout {
+  display: flex;
+  background-color: #F5F5F5;
+
+}
+
+.profilelayout_r{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+

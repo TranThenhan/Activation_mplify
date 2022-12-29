@@ -1,0 +1,143 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;  
+    width: 25%;
+    height: 880px;
+
+
+    /* Activation/White */
+
+    background: #FFFFFF;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.06);
+  }
+  
+  .sidebar_logo img{
+    width: 70px;
+    margin: 5%;
+  }
+  .sidebar_menu ul li {
+
+    font-size: 1rem;
+    color: #616161;
+    letter-spacing: 2px;
+    margin-left: 5% ;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90%;
+    line-height: 18px;
+  }
+  .sidebar_menu ul li {
+    padding: 10px 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+  }
+
+  .sidebar_menu ul li:hover{
+    color: #F06A00;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+  }
+
+.dropdown{
+  margin: auto 15% auto auto;
+transform: scale(1.2);
+margin-left: 1.7%;
+width: 15.8%;
+justify-content: center;
+position: absolute;
+text-align: end;
+padding-left: 0.35%;
+padding-right: 0.35%;
+padding-top: 9px;
+padding-bottom: 9px;
+
+
+}
+
+
+
+
+.toggle-btn {
+  margin: auto 15% auto auto;
+  transform: rotate(180deg) scale(1.2);
+  margin-left: 1.7%;
+  width: 15.8%;
+  justify-content: center;
+  position: absolute;
+  text-align: start;
+  padding-left: 0.35%;
+  padding-right: 0.35%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.sidebar_title{
+  font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 90%;
+line-height: 18px;
+color: #616161;
+display: flex;
+gap: 15px;
+margin-top: 20px;
+}
+
+.sidebar_title:hover{
+  background-color: #FFF6F0;
+}
+
+.sidebar_content{
+  overflow: hidden;
+  height: 0;
+
+}
+
+
+.open .sidebar_content{
+  height: auto;
+}
+.sidebar_logout{
+  margin: auto;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  width: 310px;
+  height: 48px;
+
+  /* Activation/Error */
+
+  border: 1px solid #FF3132;
+  border-radius: 6px;
+
+  color: #FF3132;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10%;
+  cursor: pointer;
+}
+.langue{
+  color: #BDBDBD;
+  font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+margin-left: 25%;
+}

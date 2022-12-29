@@ -1,0 +1,53 @@
+.manage_store{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
+}
+
+.manage_store img{
+  margin: auto;
+  width: 180px;
+  height: 180px;
+}
+
+.manage_store p{
+  font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+
+color: #000000;
+}
+
+.manage_store i{
+
+  margin: auto;
+  width: 205px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  vertical-align: middle;
+  /* Activation/Primary/Default */
+
+  border: 1px solid #FFA45C;
+  border-radius: 6px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+
+/* Activation/Primary/Default */
+
+color: #FFA45C;
+}
+
+.manage_store_img{
+  margin-top: 10%
+}

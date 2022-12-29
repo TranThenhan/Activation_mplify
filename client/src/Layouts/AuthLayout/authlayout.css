@@ -1,0 +1,51 @@
+.authlayout {
+        display: flex;
+        width: 1250px;
+        height: 700px;
+        margin: 80px auto auto auto;
+        gap: 180px;
+  }
+.authlayout_r{
+        display: flex;
+        width: 665px;
+        height: 665px;
+        margin: auto;
+
+
+}
+.authlayout_l{
+        display: flex;
+        width: 406px;
+        height: 700px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.p_title{
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        margin-bottom: 72px;
+}
+a:link { text-decoration: none; 
+        color: #F06A00;
+
+}
+
+.p_action{
+ text-align: center;
+ margin-bottom: 80px;
+ font-family: 'Quicksand';
+ font-style: normal;
+ font-size: 14px;
+ line-height: 18px;
+ color: #F06A00;
+}
+
+.authlayout_actions{
+        cursor: pointer;
+}

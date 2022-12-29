@@ -1,0 +1,78 @@
+.appbar{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background: #FFFFFF;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.06);
+  height: 92px;
+  padding: 0px 3%;
+
+
+}
+.appbar_logo p {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 120%;
+  line-height: 22px;
+  /* identical to box height */
+  
+  
+  /* Activation/Gray/800 */
+  
+  color: #2F2F2F;
+}
+
+.appbar_r{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  
+}
+.appbar_avatar img {
+  width: 36px;
+  height: 36px;
+}
+.appbar_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.appbar_info p{
+  font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 100%;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+/* Activation/Gray/800 */
+
+color: #2F2F2F;
+}
+
+.appbar_info i{
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80%;
+  line-height: 12px;
+  /* identical to box height */
+
+  vertical-align: top;
+  
+  color: #000000;
+}
